@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
-EXPOSE 5000
+#EXPOSE 5000
 
 # If want run our code in docker container copy and run it
 #COPY . ./
